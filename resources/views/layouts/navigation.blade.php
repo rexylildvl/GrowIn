@@ -3,9 +3,10 @@
         <div class="flex justify-between items-center py-4">
             <!-- Logo -->
             <div class="flex items-center">
-                <a href="{{ url('/') }}" class="flex items-center space-x-3">
-                    <img src="{{ asset('images/growin.png') }}" alt="GrowIn Logo" class="h-10 w-auto">
-                    <span class="text-xl font-bold text-gray-900">GrowIn</span>
+                <a href="{{ url('/') }}">
+                    <img src="{{ asset('images/growin.png') }}" 
+                        alt="GrowIn Logo" 
+                        class="h-12 md:h-14 w-auto drop-shadow-sm">
                 </a>
             </div>
 
@@ -19,9 +20,6 @@
                 </a>
                 <a href="{{ url('/about') }}" class="nav-link {{ request()->is('about') ? 'active' : '' }}">
                     About
-                </a>
-                <a href="{{ url('/contact') }}" class="nav-link {{ request()->is('contact') ? 'active' : '' }}">
-                    Contact
                 </a>
 
                 <!-- Authentication Links -->
@@ -61,17 +59,8 @@
                 <a href="{{ url('/services') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition duration-150 ease-in-out {{ request()->is('services') ? 'bg-gray-50 text-gray-900' : '' }}">
                     Services
                 </a>
-                <a href="{{ url('/pricing') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition duration-150 ease-in-out {{ request()->is('pricing') ? 'bg-gray-50 text-gray-900' : '' }}">
-                    Pricing
-                </a>
-                <a href="{{ url('/portfolio') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition duration-150 ease-in-out {{ request()->is('portfolio') ? 'bg-gray-50 text-gray-900' : '' }}">
-                    Portfolio
-                </a>
                 <a href="{{ url('/about') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition duration-150 ease-in-out {{ request()->is('about') ? 'bg-gray-50 text-gray-900' : '' }}">
                     About
-                </a>
-                <a href="{{ url('/contact') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition duration-150 ease-in-out {{ request()->is('contact') ? 'bg-gray-50 text-gray-900' : '' }}">
-                    Contact
                 </a>
 
                 <!-- Authentication Links -->
@@ -141,6 +130,12 @@
         background: var(--gradient);
         border-radius: 2px;
     }
+    .navigation img {
+        max-height: 56px;
+        width: auto;
+        object-fit: contain;
+    }
+
 </style>
 
 <script>

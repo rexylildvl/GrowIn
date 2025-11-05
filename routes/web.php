@@ -17,6 +17,9 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/order/{service:slug?}', [OrderController::class, 'create'])->name('order.create');
 Route::post('/order', [OrderController::class, 'store'])->name('order.store');
 
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+
+
 // Breeze auth routes
 require __DIR__.'/auth.php';
 

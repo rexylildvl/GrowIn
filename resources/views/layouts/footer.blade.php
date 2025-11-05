@@ -4,10 +4,12 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-12">
             <!-- Company Info -->
             <div class="lg:col-span-2">
-                <div class="flex items-center space-x-3 mb-4">
-                    <img src="{{ asset('images/growin.png') }}" alt="GrowIn Logo" class="h-8 w-auto">
-                    <span class="text-xl font-bold text-white">GrowIn</span>
+                <div class="flex items-center mb-6">
+                    <img src="{{ asset('images/growin.png') }}" 
+                        alt="GrowIn Logo" 
+                        class="h-14 md:h-16 w-auto drop-shadow-lg">
                 </div>
+
                 <p class="text-gray-300 mb-6 max-w-md text-lg">
                     Your trusted partner for digital marketing success. We help businesses grow through strategic online marketing solutions that deliver real results.
                 </p>
@@ -87,30 +89,19 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                         </svg>
-                        <span class="text-gray-300">123 Business Ave, Suite 100<br>New York, NY 10001</span>
+                        <span class="text-gray-300">Jl. Jenderal Soedirman No. 88, Purwokerto, Jawa Tengah</span>
                     </div>
                     <div class="flex items-center space-x-3">
                         <svg class="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                         </svg>
-                        <span class="text-gray-300">+1 (555) 123-4567</span>
+                        <span class="text-gray-300">+62 895 6064 95620</span>
                     </div>
                     <div class="flex items-center space-x-3">
                         <svg class="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                         </svg>
-                        <span class="text-gray-300">hello@growin.com</span>
-                    </div>
-                </div>
-
-                <!-- Newsletter -->
-                <div class="mt-6">
-                    <h4 class="text-white font-semibold mb-3">Newsletter</h4>
-                    <div class="flex flex-col space-y-2">
-                        <input type="email" placeholder="Enter your email" class="px-3 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-blue-400 transition-colors">
-                        <button class="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105 font-medium">
-                            Subscribe
-                        </button>
+                        <span class="text-gray-300">growinspecialist@gmail.com</span>
                     </div>
                 </div>
             </div>
